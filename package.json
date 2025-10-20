@@ -1,0 +1,23 @@
+{
+  "name": "openai-jm",
+  "version": "1.0.0",
+  "description": "Open AI App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmarsha82/openai-jm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmarsha82/openai-jm/issues"
+  },
+  "homepage": "https://github.com/jmarsha82/openai-jm#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^6.6.0"
+  }
+}
