@@ -28,4 +28,13 @@ const generateMeta = async (title) => {
     console.log(tags.choices[0].message);
 }
 
-module.exports = { generateMeta };
+const generateImage = async (desc) => {
+    const image = await openai.images.generate({
+        prompt: desc,
+        n: 1,
+        size: "512x512"
+    });
+    console.log(image.data[0].url);
+}
+
+module.exports = { generateMeta, generateImage };
